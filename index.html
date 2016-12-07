@@ -1,669 +1,829 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
-    <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
     
-    <title>Rab Station</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="Rab Station">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Rab Station">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Rab Station">
-    
-
-    
-        <link rel="alternate" href="/" title="Rab Station" type="application/atom+xml" />
-    
-
-    
-
-    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/vendor/open-sans/styles.css">
-    <link rel="stylesheet" href="/vendor/source-code-pro/styles.css">
-
-    <link rel="stylesheet" href="/css/style.css">
-
-    <script src="/vendor/jquery/2.1.3/jquery.min.js"></script>
-    
-    
-        <link rel="stylesheet" href="/vendor/lightgallery/css/lightgallery.min.css">
-    
-    
-        <link rel="stylesheet" href="/vendor/justified-gallery/justifiedGallery.min.css">
-    
-    
-    
-    
 
 
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title> Rab Station </title>
 </head>
 
-<body>
-    <div id="container">
-        <header id="header">
-    <div id="header-main" class="header-inner">
-        <div class="outer">
-            <a href="/" id="logo">
-                <i class="logo"></i>
-                <span class="site-title">Rab Station</span>
-            </a>
-            <nav id="main-nav">
-                
-                    <a class="main-nav-link" href="/.">Home</a>
-                
-                    <a class="main-nav-link" href="/archives">Archives</a>
-                
-                    <a class="main-nav-link" href="/categories">Categories</a>
-                
-                    <a class="main-nav-link" href="/tags">Tags</a>
-                
-                    <a class="main-nav-link" href="/about">About</a>
-                
-            </nav>
-            
-                
-                <nav id="sub-nav">
-                    <div class="profile" id="profile-nav">
-                        <a id="profile-anchor" href="javascript:;">
-                            <img class="avatar" src="/css/images/avatar.png" />
-                            <i class="fa fa-caret-down"></i>
-                        </a>
-                    </div>
-                </nav>
-            
-            <div id="search-form-wrap">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-    <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
-        <button type="submit" class="search-form-submit"></button>
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="Type something..." />
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Rab Station</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">有爱有设计</p>
 </div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: 'Posts',
-            PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
-            UNTITLED: '(Untitled)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-<script src="/js/insight.js"></script>
 
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
 </div>
-        </div>
-    </div>
-    <div id="main-nav-mobile" class="header-sub header-inner">
-        <table class="menu outer">
-            <tr>
-                
-                    <td><a class="main-nav-link" href="/.">Home</a></td>
-                
-                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
-                
-                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
-                
-                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
-                
-                    <td><a class="main-nav-link" href="/about">About</a></td>
-                
-                <td>
-                    
-    <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
-    </div>
 
-                </td>
-            </tr>
-        </table>
-    </div>
-</header>
+<nav class="site-nav">
+  
 
-        <div class="outer">
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
             
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/12/07/ai小练习/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="荒野大兔渣">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Rab Station">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Rab Station" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 
+                <a class="post-title-link" href="/2016/12/07/ai小练习/" itemprop="url">
+                  Illustrator Cat
+                </a>
+              
+            
+          </h1>
+        
 
-<aside id="profile">
-    <div class="inner profile-inner">
-        <div class="base-info profile-block">
-            <img id="avatar" src="/css/images/avatar.png" />
-            <h2 id="name">兔渣</h2>
-            <h3 id="title">Product Designer</h3>
-            <span id="location"><i class="fa fa-map-marker"></i>Nanjing, China</span>
-            <a id="follow" target="_blank" href="https://github.com/rabbielulu/">FOLLOW</a>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-07T23:55:03+08:00">
+                2016-12-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
         </div>
-        <div class="article-info profile-block">
-            <div class="article-info-block">
-                2
-                <span>posts</span>
-            </div>
-            <div class="article-info-block">
-                0
-                <span>tag</span>
-            </div>
-        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
-        <div class="profile-block social-links">
-            <table>
-                <tr>
-                    
-                    
-                    <td>
-                        <a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github" class=tooltip>
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </td>
-                    
-                    <td>
-                        <a href="/" target="_blank" title="twitter" class=tooltip>
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </td>
-                    
-                    <td>
-                        <a href="/" target="_blank" title="facebook" class=tooltip>
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </td>
-                    
-                    <td>
-                        <a href="/" target="_blank" title="dribbble" class=tooltip>
-                            <i class="fa fa-dribbble"></i>
-                        </a>
-                    </td>
-                    
-                    <td>
-                        <a href="/" target="_blank" title="rss" class=tooltip>
-                            <i class="fa fa-rss"></i>
-                        </a>
-                    </td>
-                    
-                </tr>
-            </table>
-        </div>
+          
+            <p><img src="http://oerbs9x18.bkt.clouddn.com/ai%20cat.png" alt=""></p>
+
+          
         
+      
     </div>
-</aside>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/25/一名设计师的github + hexo小白搭建日志/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="荒野大兔渣">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Rab Station">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Rab Station" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/25/一名设计师的github + hexo小白搭建日志/" itemprop="url">
+                  一名设计师的github + hexo小白搭建日志
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-25T00:00:00+08:00">
+                2016-10-25
+              </time>
+            
 
             
-            <section id="main">
-    <article id="post-一名设计师的github + hexo小白搭建日志" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
+
             
-            <h1 id="一名设计师的github-hexo小白搭建日志"><a href="#一名设计师的github-hexo小白搭建日志" class="headerlink" title="一名设计师的github + hexo小白搭建日志"></a>一名设计师的github + hexo小白搭建日志</h1><hr>
-<h2 id="背景故事"><a href="#背景故事" class="headerlink" title="背景故事"></a>背景故事</h2><p>想当年，blog还盛行的时候，是有很多给我们这些广大群众分享日记的选择。早先的blogbus之类的，后来用起了点点等轻博客，里面有好多好看的模板，而且可以自定义，当时就好奇这些自定义可以怎么搞，然后战战兢兢的在自定义代码里贴上了虾米播放器的代码，生成了一个博客歌单，成功后竟然有点小激动呢。还有WordPress这种神奇的东西，听说也是很厉害的样子，结果注册一个后也因为当时年少，脑内信息还太少，一头雾水根本不知道怎么搞就搁置了。</p>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="背景故事"><a href="#背景故事" class="headerlink" title="背景故事"></a>背景故事</h2><p>想当年，blog还盛行的时候，是有很多给我们这些广大群众分享日记的选择。早先的blogbus之类的，后来用起了点点等轻博客，里面有好多好看的模板，而且可以自定义，当时就好奇这些自定义可以怎么搞，然后战战兢兢的在自定义代码里贴上了虾米播放器的代码，生成了一个博客歌单，成功后竟然有点小激动呢。还有WordPress这种神奇的东西，听说也是很厉害的样子，结果注册一个后也因为当时年少，脑内信息还太少，一头雾水根本不知道怎么搞就搁置了。</p>
 <p>工作原因，接触了git和github（因为每天要跟程序员撕嘛，他们用的啥东西多少还是了解些的），随后知道有个GithubPages这么个玩意儿，似乎要比woedpress等简单，因为本身就有在用github,看起来是博客搭建起来后，只要往github里自己的repositories（也就是仓库）里提交就可以更新维护了。与此同时，使用一个叫HEXO的东西，它是一个简单方便的博客框架，省的自己一行一行的写前端页面来构建博客了。</p>
 <p>听起来很cool呀！就决定再次开始折腾吧！</p>
 <hr>
 <p>查了好多的资料，感谢很多人分享的经验。一个又一个奇怪的术语，不懂的概念，参考别人的教程，但也遇到了自己奇怪的问题，全靠google活了下来。<br>在此记录我的搭建日志（主要怕脑子不好回头忘了哈）</p>
 <p>另外我使用的是mac，所以记录的都是mac下的搭建过程。</p>
-<p>非常感谢这些文章的帮助：<br><a href="http://yebujimo.com/2015/03/15/Mac%E4%B8%8B%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="external">Mac下搭建Hexo博客教程</a><br><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="http://www.jianshu.com/p/834d7cc0668d" target="_blank" rel="external">我的博客是如何搭建的（github pages + HEXO + 域名绑定）</a><br><a href="http://www.ezlippi.com/blog/2015/03/github-pages-blog.html" target="_blank" rel="external">利用github-pages建立个人博客</a></p>
+<p>非常感谢这些文章的帮助：<br><a href="http://yebujimo.com/2015/03/15/Mac%E4%B8%8B%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">Mac下搭建Hexo博客教程</a><br><a href="http://www.jianshu.com/p/fd878edb95e7">MAC 上 github + hexo 搭建博客教程</a><br><a href="http://www.jianshu.com/p/834d7cc0668d">我的博客是如何搭建的（github pages + HEXO + 域名绑定）</a><br><a href="http://www.ezlippi.com/blog/2015/03/github-pages-blog.html">利用github-pages建立个人博客</a></p>
 <hr>
-<h2 id="始めましょう！！"><a href="#始めましょう！！" class="headerlink" title="始めましょう！！"></a><strong>始めましょう！！</strong></h2><h2 id="准备工作和基本科普"><a href="#准备工作和基本科普" class="headerlink" title="准备工作和基本科普"></a>准备工作和基本科普</h2><h3 id="第一步：注册Github"><a href="#第一步：注册Github" class="headerlink" title="第一步：注册Github"></a>第一步：注册Github</h3><p>如果你没有github账号，那就要先去注册一个。 <a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
-<p>小白注解：github就是给程序员用的托管代码的，当然我们其他人也可以往上面传些东西，主要好处就是可以多人协作，每个人一个分支，你也传一份，我也传一份（这个行为叫push），大家在时间轴上汇聚成一个整体（这个整体叫master），master可以进行版本控制，找到以前的版本。我们的博客的资料到时候就会全部放在自己在github的仓库里。</p>
-<p>注册步骤没什么特殊的，注册完成后，我们要新建一个仓库 new repository</p>
-<p><img src="http://static.zybuluo.com/rabbielulu/1rqdxjkksmvk47y50853ibdt/%E6%96%B0%E5%BB%BA%E9%A1%B9%E7%9B%AE.png" alt="新建项目.png-80.7kB"></p>
-<h3 id="第二步：安装Git"><a href="#第二步：安装Git" class="headerlink" title="第二步：安装Git"></a>第二步：安装Git</h3><p>github上的仓库(repositroy)建立完成后，我们还有在电脑上安装一下Git，这样方便我们把本地的项目push到线上仓库里。</p>
-<p>到安装软件的时候了，接触到一个新东西，叫Homebrew.</p>
-<p>小白注解：以我的理解，这个是一个很酷炫的，外行人看起来很黑客的一种安装软件包的方法，我们知道在windows里可以通过cmd输入命令行来执行一些指令（哀家就会查个ipconfig啥的），mac里的命令行工具是Terminal（终端）。当mac安装了homebrew后，就可以很方便的安装一些git上的或者~~其它啥啥我也不知道哪来~~的程序包了</p>
-<p><a href="http://brew.sh/" target="_blank" rel="external">http://brew.sh/</a> 打开hombrew的官网，按照网站说明，只要在Terminal输入一行<br>    /usr/bin/ruby -e “$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install" target="_blank" rel="external">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)”</p>
-<p>就可以安装homebrew了，随后，就可以在终端里说homebrew都能听懂的话让他做事啦。</p>
-<p>比如”嘿，brew给我装个GIT吧”：</p>
-<pre><code>brew install git
-</code></pre><p>这样我们就安装好了Git。如果出现问题，尝试在指令前加入sudo，sudo可以获得root权限，执行带有sudo的指令电脑会要求你输入密码。</p>
-<h3 id="第三步：安装Node-js"><a href="#第三步：安装Node-js" class="headerlink" title="第三步：安装Node.js"></a>第三步：安装Node.js</h3><p>这个是什么呢？反正也是我们需要运行博客的一个环境，跟web服务器相关的东西，hexo需要他。</p>
-<h4 id="装node之前我们要先安装-nvm"><a href="#装node之前我们要先安装-nvm" class="headerlink" title="装node之前我们要先安装 nvm"></a>装node之前我们要先安装 nvm</h4><p>这又是个啥呢？这个是个mac下的 node 管理工具，管理版本更新的<br>在终端中输入以下指令：</p>
-<pre><code>git clone git://github.com/creationix/nvm.git \~/nvm
-echo &quot;. \~/.nvm/nvm.sh&quot; \&gt;\&gt; \~/.bash\_profile
-</code></pre><p>我在这一步的时候遇到了问题， 我的home目录下没有 bash_profile这个文件。解决办法是要用终端命令行自行创建一个（也见识到了啥叫linux命令）</p>
-<p>1.进入home目录 cd~<br>2.创建 touch.bash_profile<br>3.打开 open.bash_profile<br>4.然后编辑文件 输入open -e .bash_profile<br>5.保存，关闭文件<br>6.输入source.bash_profile</p>
-<p>参考文章 ：<br><a href="http://blog.csdn.net/edai9508/article/details/6006269" target="_blank" rel="external">http://blog.csdn.net/edai9508/article/details/6006269</a><br><a href="http://www.jianshu.com/p/a6044bd2ad35" target="_blank" rel="external">http://www.jianshu.com/p/a6044bd2ad35</a></p>
-<p>安装好后，重开一下终端，输入：<br>    nvm install v0.8.14<br>    nvm use v0.8.14<br>    nvm alias default v0.8.14</p>
-<p>Node.js就安装完成了。</p>
-<h3 id="第四步：配置SSH-keys"><a href="#第四步：配置SSH-keys" class="headerlink" title="第四步：配置SSH keys"></a>第四步：配置SSH keys</h3><p>打开GitHub，在右上角头像处菜单找到setting，点击左侧的ssh and gpg keys，添加一个SSH keys。SSH keys的好处是让我们以后在本地进行操作并同步到GitHub上时不用输密码。</p>
-<p>打开终端 输入如下代码：</p>
-<pre><code>cd \~/. ssh
-</code></pre><p>这行代码能够帮助你检查电脑上现有的SSH key。<br>如果提示：No such file or directory说明没有key文件，输入以下代码生成新的key文件：</p>
-<pre><code>ssh-keygen -t rsa -C &quot;邮件地址@youremail.com&quot;
-</code></pre><p>这里的邮件地址填自己注册时的邮件地址，注意大小写，双引号不能省略，终端会返回代码让你确定文件名，回车就好。</p>
-<pre><code>Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/DoubleD/.ssh/id\_rsa): //回车就行
-</code></pre><p>接着会让你输入加密串，可以空着：<br>    Enter passphrase (empty for no passphrase):\&lt;输入加密串><br>    Enter same passphrase again:\&lt;再次输入加密串></p>
-<p>看到如下所示的输出，就代表你已经成功的创建了一个SSH key。<br><img src="http://static.zybuluo.com/rabbielulu/i6exjss5ae7jb47z0f1ps88l/ssh-key.png" alt="ssh-key.png-11.7kB"></p>
-<p>找到本机上的id_rsa.pub文件，打开它（建议使用Sublime Text）复制里面的代码，记得不要多复制空格或换行，添加到下图位置：<br><img src="http://static.zybuluo.com/rabbielulu/jfcuki0vwcmz29plvwh0asfl/add-key.png" alt="add-key.png-25kB"><br>然后点击Add key就配置好了SSH key。输入下面的指令测试是否配置成功：</p>
-<pre><code>ssh -T git@github.com
-</code></pre><p>如果返回的结果如下：<br>    he authenticity of host ‘github.com (207.97.227.239)’ can’t be established.<br>    RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.<br>    Are you sure you want to continue connecting (yes/no)?</p>
-<p>输入yes，就能看到</p>
-<pre><code>Hi YourID! You&apos;ve successfully authenticated, but GitHub does not provide shell access.
-</code></pre><p>这样你的SSH key就配置完成了。完成之后，我们设置好个人信息，用于提交代码说明是谁提交的，怎么联系。可以用以下指令完成：<br>    git config –global user.name “你的名字”<br>    git config –global user.email  “你的邮箱”</p>
-<h3 id="第五步：购买域名"><a href="#第五步：购买域名" class="headerlink" title="第五步：购买域名"></a>第五步：购买域名</h3><p>虽然GitHub Pages提供了二级域名，比如xxxxx.github.io.不过有个自己的独立域名不是很兴奋吗？而且也不贵。这里大家都推荐的是Godaddy，<a href="https://www.godaddy.com" target="_blank" rel="external">https://www.godaddy.com</a> .com域名一般每年收费70块不到。</p>
-<h4 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h4><p>因为GoDaddy的DNS服务不稳定，会被墙，所以建议换成DNSPod的解析服务。</p>
-<ul>
-<li>什么是域名解析？<br>域名就是我们平常所说的网站名 比如百度 baidu.com 、腾讯QQ qq.com<br>而我们之可以可以通过网站名访问网站，实际是访问的网站地址对象的 ip 地址对应的主机<br>通过网站名访问网站是对域名做了一个解析， 比如我要上 老王家，你就把老王的门牌号告诉我，我就可以找到老王家。 老王 就是域名， 门牌号 就是 ip 地址。</li>
-</ul>
-<p>因此我们首先需要知道我们 githubpage 的ip地址<br>ping 到我们的gitHubPages的ip地址</p>
-<pre><code>ping http:xxxxxx.github.io
-</code></pre><p>然后就可以看到ip地址</p>
-<ul>
-<li><p>域名绑定ip地址<br>注册dnspod后，添加你购买的域名地址，然后点击域名进入解析设置，添加两条记录<br>添加等级域名 www ，就可以通过 www.xxxx.com 来访问网站<br>添加 @ , 就可以直接通过 xxxx.com 来访问网站<br><img src="http://static.zybuluo.com/rabbielulu/229i9u28uxhiio9wueo9j25j/dnspod.jpg" alt="dnspod.jpg-86.3kB"></p>
-</li>
-<li><p>去GoDaddy修改dns</p>
-</li>
-</ul>
-<p>首页顶部头像处快捷进入manage my donmains<br>小齿轮选择manage dns<br>修改dns server为dnspod的域名解析<br><img src="http://static.zybuluo.com/rabbielulu/bknxaivlgn0r9mr6fykidf85/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-09%20%E4%B8%8A%E5%8D%8812.00.35.png" alt="屏幕快照 2016-10-09 上午12.00.35.png-66.3kB"></p>
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>前面都是准备工作（心好累），现在开始我们要安装博客框架hexo,通过他会向我们的github提交一些文件，这样我们就可以看到一个博客的基本雏形了。</p>
-<p>打开终端，输入以下指令：</p>
-<pre><code>npm install -g hexo
-</code></pre><p>在电脑上你愿意的一个位置建立一个文件夹，名字任意，然后在该目录下执行以下指令（在终端中输入cd+空格+文件路径就可在该目录下执行指令）<br>    hexo init<br>    npm install</p>
-<p>Hexo就会在该文件夹建立博客所需要的所有文件。本地的Hexo博客已经初步搭建起来，输入以下指令：<br>    hexo generate//可以简写为 hexo g<br>    hexo server//可以简写为 hexo s</p>
-<p>就可以在浏览器中输入localhost:4000查看本地博客了。(好激动好激动)要注意的是，<strong>所有的hexo指令都必须在你所建立的目录下执行。</strong></p>
-<h3 id="部署Hexo到Github上"><a href="#部署Hexo到Github上" class="headerlink" title="部署Hexo到Github上"></a>部署Hexo到Github上</h3><p>本地的博客已经搭建好了，如何能让别人从网上访问到你的博客？只要将你的本地博客deploy到GitHub上就好。输入以下指令：</p>
-<pre><code>npm install hexo-deployer-git --save
-</code></pre><p>然后打开博客目录的_config.yml文件，设置<br>    deploy:<br>    type: git<br>    repo: <a href="https://github.com/yourname/yourname.github.io.git" target="_blank" rel="external">https://github.com/yourname/yourname.github.io.git</a><br>    branch: master<br>（需要在type和repo后面加上一个空格再填写）。</p>
-<h3 id="绑定域名-让github-page网址跳转到你的自定义域名上"><a href="#绑定域名-让github-page网址跳转到你的自定义域名上" class="headerlink" title="绑定域名(让github page网址跳转到你的自定义域名上)"></a>绑定域名(让github page网址跳转到你的自定义域名上)</h3><p>在你的Hexo目录中找到source文件夹，在其中新建一个文件CNAME，没有后缀名（建议使用Sublime Text新建），内容为你的域名（不加<a href="http://www之类的前缀），保存。" target="_blank" rel="external">http://www之类的前缀），保存。</a><br><img src="http://static.zybuluo.com/rabbielulu/o4uct0fnia7pn6gaa8401nwu/cname%20edit.jpeg" alt="cname edit.jpeg-16.3kB"></p>
-<p>输入hexo部署指令：<br>    hexo g<br>    hexo deploy//可简写为 hexo d</p>
-<p><strong>激动人心的时刻到啦，在浏览器中输入自己域名，就可以看到自己的博客啦！</strong><br><img src="http://static.zybuluo.com/rabbielulu/h0qddrlhsa846a9u29u2phwb/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-09%20%E4%B8%8A%E5%8D%8812.18.38.png" alt="屏幕快照 2016-10-09 上午12.18.38.png-1710.1kB"></p>
-<h2 id="hexo博客的使用"><a href="#hexo博客的使用" class="headerlink" title="hexo博客的使用"></a>hexo博客的使用</h2><h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><pre><code>$ hexo new &quot;My New Post&quot; // 创建一个md文件
-</code></pre><p>创建好文件直接进行编辑，也可以直接用别的软件写markdowm文件，然后放到\Hexo\source_posts </p>
-<pre><code>$ hexo server //启动本地服务器，可以预览本地效果
-$ hexo generate //生成新文章的的网页静态页面
-$ hexo deploy //部署到github
-</code></pre><p>我在这一步又遇到了问题 生成静态文件的时候卡住，然后重开终端你，直接执行 hexo g，似乎没问题</p>
-<p>部署到github</p>
-<pre><code>&amp; hexo d
-</code></pre><h2 id="坑坑坑"><a href="#坑坑坑" class="headerlink" title="坑坑坑"></a>坑坑坑</h2><p><strong>部署时遇到的问题：</strong></p>
-<ol>
-<li>报错 “fatal: Not a git repository (or any of the parent directories): .git”<br>搜了一下，执行 git init 解决了问题。</li>
-</ol>
-<p>2.ERROR Deployer not found: git<br>解决办法：<br>确保安装了hexo的 deployer插件</p>
-<pre><code>npm install hexo-deployer-git --save 
-</code></pre><p>3.部署成功后github上提示我的 The page build failed with the following error:</p>
-<blockquote>
-<p>The submodule <code>themes/Anisina</code> was not properly initialized with a <code>.gitmodules</code> file. For more information, see <a href="https://help.github.com/articles/page-build-failed-missing-submodule" target="_blank" rel="external">https://help.github.com/articles/page-build-failed-missing-submodule</a>.</p>
-</blockquote>
-<p>邮件给github求助，他们告诉我估计是我把一个repo当做submodule放在了另一个git repo里。我一只想不明白这个是什么意思，后来折腾了好几天，各种尝试，重试，分析了很久这个问题，途中因为尝试可能错误的操作都搅在一起显现了，我到现在也没精准排除，不过想来大概两个原因：<br>1.我试图更换主题，copy别人的theme时，clone错了地址，搬运了整个repo，我其实只需要theme文件夹的主要文件就可以了。<br>2.我git init时，命令执行错了文件夹，在我hexo的文件下执行，会在我的blog repo下里又生成一个我本身pages的repo的.git的文件，因为我后来重新来过时，打开了finder的隐藏文件的显示，确保我的hexo文档下没有多余的.git</p>
-<p>不知道是不是这些原因，不过经过几遍的尝试，现在我的域名 <a href="http://rabstation.com/" target="_blank" rel="external">rabstation.com</a> 终于可以正常打开我的hexo博客啦！（虽然还是古老的主题，下一步尝试替换和设置主题，希望不要有更多幺蛾子55555T-T）</p>
-<p>总结下~~当基础配置都没有问题~~的日常操作流程：<br>在本地发布文章</p>
-<ul>
-<li><strong>hexo s预览</strong></li>
-<li><strong>hexo g生成页面的静态文件</strong></li>
-<li><strong>hexo d部署到github</strong> </li>
-<li><strong>然后线上查看</strong></li>
-</ul>
-<p>问题参考：<br><a href="https://xuanwo.org/2014/08/14/hexo-usual-problem/" target="_blank" rel="external">https://xuanwo.org/2014/08/14/hexo-usual-problem/</a><br><a href="http://www.jianshu.com/p/465830080ea9/comments/3774706" target="_blank" rel="external">http://www.jianshu.com/p/465830080ea9/comments/3774706</a></p>
-
+<h2 id="始めましょう！！"><a href="#始めましょう！！" class="headerlink" title="始めましょう！！"></a><strong>始めましょう！！</strong></h2>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/25/一名设计师的github + hexo小白搭建日志/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://yoursite.com/2016/10/25/一名设计师的github + hexo小白搭建日志/" data-id="ciupnnzl90001vpiwxn0fnlsn" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://yoursite.com/2016/10/25/一名设计师的github + hexo小白搭建日志/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yoursite.com/2016/10/25/一名设计师的github + hexo小白搭建日志/">Comments</a>
-    
-
-        </footer>
+      
     </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
-</article>
+      
 
+  
 
+  
+  
+  
 
-    <article id="post-图库！——头晕眼花大海捞针的找图日常" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/10/23/图库！——头晕眼花大海捞针的找图日常/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="荒野大兔渣">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Rab Station">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Rab Station" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
         
         
-        
-        <div class="article-entry" itemprop="articleBody">
-        
+          <h1 class="post-title" itemprop="name headline">
             
-            <h1 id="图库！——头晕眼花大海捞针的找图日常"><a href="#图库！——头晕眼花大海捞针的找图日常" class="headerlink" title="图库！——头晕眼花大海捞针的找图日常"></a>图库！——头晕眼花大海捞针的找图日常</h1><hr>
-<p><img src="http://upload-images.jianshu.io/upload_images/680990-cbc58522537e54fa.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/23/图库！——头晕眼花大海捞针的找图日常/" itemprop="url">
+                  图库！——头晕眼花大海捞针的找图日常
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-23T00:00:00+08:00">
+                2016-10-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="http://upload-images.jianshu.io/upload_images/680990-cbc58522537e54fa.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <p>灵感图，素材图，资源图，任何设计开始前总要先浏览个一波，多看多学习。工作中更是要效率第一，老板动不动分分钟就要先看下效果图啊！不能跟老板说慢着别急等我三天我弄个大作……所以要经常收集有用的素材，还有灵感池没事儿进去泡泡，美容养颜，强身健体，下面是平常会去翻翻的网站。</p>
 <p>不要用百度了，特别是搜图片真是搜啥啥不对。<br>科学上网用谷歌，搜索结果不呵呵。</p>
-<p>以下有些需要翻墙</p>
-<h3 id="灵感图-参考图"><a href="#灵感图-参考图" class="headerlink" title="灵感图 参考图"></a>灵感图 参考图</h3><p><a href="https://dribbble.com/" target="_blank" rel="external">dribbble</a> 图形设计，动效设计</p>
-<p><a href="https://www.pinterest.com/" target="_blank" rel="external">Pinterest</a> 综合图片搜索，灵感图</p>
-<p><a href="http://huaban.com/" target="_blank" rel="external">花瓣网</a> 综合图片搜索</p>
-<p><a href="https://www.behance.net/" target="_blank" rel="external">behance</a> 图形，交互，整套设计</p>
-<p><a href="http://www.shutterstock.com/" target="_blank" rel="external">shutterstock</a> 高质量图片，图标，图形设计平台，付费使用（贵死人，可供灵感参考） </p>
-<p><a href="http://bannerdesign.cn/" target="_blank" rel="external">bannerdesign</a> banner设计欣赏网站</p>
-<p><a href="http://www.hellorf.com/" target="_blank" rel="external">海洛视觉</a> shutterstock中国版</p>
-<h3 id="UI库，界面素材"><a href="#UI库，界面素材" class="headerlink" title="UI库，界面素材"></a>UI库，界面素材</h3><p><a href="http://www.freepik.com/free-vectors/graphics" target="_blank" rel="external">freepik</a> （买不起shutterstock的就用它吧……）<br>普通用户下载使用资源需要声明作者，会员用户无需声明作者，并且可以下载会员专属资源。 会员$7.5/mon</p>
-<p><a href="http://ui-cloud.com/" target="_blank" rel="external">uilcound</a> 适合按照UI组件搜索，有很多组件样式的参考</p>
-<p><a href="http://flypixel.com/" target="_blank" rel="external">flypixle</a> 网站类似dribbble， 很多设计师分享的UI设计</p>
-<p><a href="http://www.iguoguo.net/" target="_blank" rel="external">爱果果</a> 酷站欣赏，UI分享下载</p>
-<p><a href="http://cn.365psd.com/" target="_blank" rel="external">365psd</a> 免费psd，矢量UI素材</p>
-<p><a href="http://subtlepatterns.com/" target="_blank" rel="external">subtlepatterns</a>  平铺背景图</p>
-<h3 id="无版权图片库"><a href="#无版权图片库" class="headerlink" title="无版权图片库"></a>无版权图片库</h3><p>有时候一些设计需要背景图或者气氛图，使用合适的图基本上就完成了一半的工作了~</p>
-<p><a href="https://pixabay.com/zh/" target="_blank" rel="external">pixbay</a> 综合免费照片库</p>
-<p><a href="https://unsplash.com" target="_blank" rel="external">unsplash</a> 大图，色调都调过的美大图</p>
-<p><a href="www.pexels.com">pexels</a>同样免费可商用，可以搜索，和unsplash类似</p>
-<p><a href="http://www.gratisography.com/" target="_blank" rel="external">Gratisography</a> 时尚风格的图片，免费个人，商用</p>
-<p><a href="http://cupcake.nilssonlee.se/" target="_blank" rel="external">cupcake</a> 无标签分类，一些冷色调的照片，可随意使用。</p>
-<p><a href="http://jaymantri.com/" target="_blank" rel="external">Jay Mantri</a> 同样无标签分类，不定期更新，可以随意使用。</p>
-<p><a href="https://picjumbo.com/" target="_blank" rel="external">picjumbo</a> 图片，插画，矢量。免费使用</p>
-<p><a href="http://www.lifeofpix.com/" target="_blank" rel="external">life of pix</a> 免费高清图片，多为欧洲景观</p>
-<p><a href="http://magdeleine.co/browse/" target="_blank" rel="external">Magdeleine</a>也是色调调整过的免费图片，风景居多</p>
-<p><a href="http://699pic.com/" target="_blank" rel="external">摄图网</a> 国内的免费图片搜索，资源和上面的一些网站相同，访问国外网站太慢的话可以试试这个</p>
-<p><a href="http://90sheji.com/" target="_blank" rel="external">90设计</a> 电商 banner 背景图 每日三张免费下载，成为VIP后可以自由下载</p>
-<p><a href="https://foodiesfeed.com/" target="_blank" rel="external">foodiesfeed</a>  专注食物类的大图</p>
-<hr>
-<p>TBC ^^<br>资源都有了，接下来就看怎么灵活运用激发灵感创造自己的东西吧！</p>
+<p>以下有些需要翻墙<br>
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/23/图库！——头晕眼花大海捞针的找图日常/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="荒野大兔渣" />
+          <p class="site-author-name" itemprop="name">荒野大兔渣</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
 
         
+
+        <div class="links-of-author motion-element">
+          
         </div>
-        <footer class="article-footer">
-            <div class="share-container">
+
+        
+        
+
+        
+        
+
+        
 
 
+      </section>
 
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">荒野大兔渣</span>
 </div>
 
-    <a data-url="http://yoursite.com/2016/10/23/图库！——头晕眼花大海捞针的找图日常/" data-id="ciupnnzl50000vpiwhct0dmks" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
 
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
 
-            if ($('#' + id).length) {
-                box = $('#' + id);
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
 
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
 
-              box = $(html);
+        
 
-              $('body').append(box);
-            }
+        
+      </div>
+    </footer>
 
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="http://yoursite.com/2016/10/23/图库！——头晕眼花大海捞针的找图日常/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://yoursite.com/2016/10/23/图库！——头晕眼花大海捞针的找图日常/">Comments</a>
-    
-
-        </footer>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
     </div>
-    
-</article>
+  </div>
 
+  
 
-</section>
-            
-                <aside id="sidebar">
-   
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
-        <div class="widget">
-            <ul id="recent-post" class="">
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/10/25/一名设计师的github + hexo小白搭建日志/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2016/10/25/一名设计师的github + hexo小白搭建日志/" class="title"></a></p>
-                            <p class="item-date"><time datetime="2016-10-25T15:22:24.000Z" itemprop="datePublished">2016-10-25</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/10/23/图库！——头晕眼花大海捞针的找图日常/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2016/10/23/图库！——头晕眼花大海捞针的找图日常/" class="title"></a></p>
-                            <p class="item-date"><time datetime="2016-10-23T15:07:57.000Z" itemprop="datePublished">2016-10-23</time></p>
-                        </div>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-    
-        
-    
-        
-    <div class="widget-wrap">
-        <h3 class="widget-title">archives</h3>
-        <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">2</span></li></ul>
-        </div>
-    </div>
-
-    
-        
-    
-        
-    
-        
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
-        <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a href="http://hexo.io">Hexo</a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-
-    
-    <div id="toTop" class="fa fa-angle-up"></div>
-</aside>
-            
-        </div>
-        <footer id="footer">
-    <div class="outer">
-        <div id="footer-info" class="inner">
-            &copy; 2016 荒野大兔渣<br>
-            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
-        </div>
-    </div>
-</footer>
-        
-    
-    <script>
-    var disqus_config = function () {
-        
-        this.page.identifier = 'undefined';
-    };
-    (function() { 
-        var d = document, s = d.createElement('script');  
-        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
 
 
-    
-        <script src="/vendor/lightgallery/js/lightgallery.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-thumbnail.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-pager.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-autoplay.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-fullscreen.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-zoom.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-hash.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-share.min.js"></script>
-        <script src="/vendor/lightgallery/js/lg-video.min.js"></script>
-    
-    
-        <script src="/vendor/justified-gallery/jquery.justifiedGallery.min.js"></script>
-    
 
 
 
-<!-- Custom Scripts -->
-<script src="/js/main.js"></script>
 
-    </div>
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
 </body>
 </html>
